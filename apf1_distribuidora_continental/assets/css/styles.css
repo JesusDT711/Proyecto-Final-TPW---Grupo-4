@@ -1,0 +1,119 @@
+/* Variables CSS para uso general */
+:root{
+    /* Variable para paleta de colores */
+    --color1: #0d1a50; /* Color azul marino */
+    --color2: #ffffff; /* Color blanco */
+    --color3: #dc0c20; /* Color rojo */
+    --color4: #ef233c; /* Color fresa */
+    --color5: #212529; /* Color azul oscuro */
+
+    /* Variables para tipo de fuente */
+    --fuente1: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+/* Selector universal para afectar todos los elementos */
+* {
+    /* Quitar los espacios prederterminados */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/* Selectores de estilo de tipo etiqueta HTML */
+
+html{
+    /* Valor por defecto del rem */
+    font-size: 14px;
+}
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    font-family: var(--fuente1);
+    line-height: 1.8;
+}
+
+
+/* Selectores de estilo de tipo class */
+
+.container {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-sm {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.padding-xl {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.header {
+    background-color: var(--color1);
+    color: var(--color4);
+}
+
+.about {
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+.service {
+    background-color: var(--color2);
+    color: var(--color5);
+}
+
+.footer {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.nav-menu {
+    display: flex;
+    /* gap: 1rem; */
+}
+
+.nav-menu-link {
+    color: var(--color2);
+    text-decoration: none; /* Quita el subrayado*/
+    display: block;
+    padding: 0px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-menu-link:hover {
+    color: var(--color3);
+    background-color: var(--color1);
+}
+
+.video-fluid {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: block;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+}
