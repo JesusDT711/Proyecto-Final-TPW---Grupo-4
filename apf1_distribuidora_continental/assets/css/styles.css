@@ -1,11 +1,10 @@
 /* Variables CSS para uso general */
 :root{
     /* Variable para paleta de colores */
-    --color1: #0d1a50; /* Color azul marino */
+    --color1: #212529; /* Color gris oscuro */
     --color2: #ffffff; /* Color blanco */
     --color3: #dc0c20; /* Color rojo */
     --color4: #ef233c; /* Color fresa */
-    --color5: #212529; /* Color azul oscuro */
 
     /* Variables para tipo de fuente */
     --fuente1: Verdana, Geneva, Tahoma, sans-serif;
@@ -102,7 +101,7 @@ body{
 }
 
 .nav-menu-link:hover {
-    color: var(--color3);
+    color: var(--color4);
     background-color: var(--color1);
 }
 
