@@ -3,8 +3,8 @@
     /* Variable para paleta de colores */
     --color1: #212529; /* Color gris oscuro */
     --color2: #ffffff; /* Color blanco */
-    --color3: #dc0c20; /* Color rojo */
-    --color4: #ef233c; /* Color fresa */
+    --color3: #ea1b26; /* Color rojo */
+    --color4: #6a6b71; /* Color gris claro*/
 
     /* Variables para tipo de fuente */
     --fuente1: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,7 +69,7 @@ body{
 
 .header {
     background-color: var(--color1);
-    color: var(--color4);
+    color: var(--color3);
 }
 
 .about {
@@ -77,9 +77,17 @@ body{
     color: var(--color3);
 }
 
+.about-text{
+    color: var(--color4);
+}
+
 .product {
     background-color: var(--color2);
-    color: var(--color5);
+    color: var(--color1);
+}
+
+.product-title{
+    color: var(--color3);
 }
 
 .footer {
@@ -101,7 +109,7 @@ body{
 }
 
 .nav-menu-link:hover {
-    color: var(--color4);
+    color: var(--colo3);
     background-color: var(--color1);
 }
 
