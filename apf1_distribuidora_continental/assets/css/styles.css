@@ -141,6 +141,11 @@ body{
     box-sizing: border-box;
 }
 
+.col-33{
+    max-width: 33%;
+    flex-basis: 33%;
+}
+
 .col-40{
     max-width: 40%;
     flex-basis: 40%;
@@ -162,7 +167,7 @@ body{
 }
 
 .button-product{
-    background-color: var(--color1);
+    background-color: var(--color3);
     color: var(--color2);
     padding: 5px 15px;
     border: none;
@@ -172,5 +177,5 @@ body{
 }
 
 .button-product:hover{
-    background-color: var(--color3);
+    background-color: var(--color1);
 }
