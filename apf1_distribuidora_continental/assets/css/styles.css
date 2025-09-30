@@ -110,6 +110,17 @@ body{
     color: var(--color2);
 }
 
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 150px;
+}
+
 .nav-menu {
     display: flex;
     /* gap: 1rem; */
@@ -126,6 +137,11 @@ body{
 .nav-menu-link:hover {
     color: var(--colo3);
     background-color: var(--color1);
+}
+
+.nav-link-active{
+    background-color: var(--color1);
+    color: var(--color2);
 }
 
 .video-fluid {
