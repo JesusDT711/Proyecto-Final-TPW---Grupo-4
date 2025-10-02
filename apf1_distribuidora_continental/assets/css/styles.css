@@ -58,8 +58,8 @@ body{
 }
 
 .padding-sm {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .padding-xl {
@@ -68,8 +68,8 @@ body{
 }
 
 .header {
-    background-color: var(--color1);
-    color: var(--color3);
+    background-color: var(--color2);
+    color: var(--color4);
 }
 
 .about {
@@ -127,20 +127,20 @@ body{
 }
 
 .nav-menu-link {
-    color: var(--color2);
+    color: var(--color3);
     text-decoration: none; /* Quita el subrayado*/
     display: block;
-    padding: 0px 15px;
+    padding: 15px 15px;
     transition: all 0.3s ease-in-out;
 }
 
 .nav-menu-link:hover {
-    color: var(--colo3);
-    background-color: var(--color1);
+    color: var(--color2);
+    background-color: var(--color3);
 }
 
 .nav-link-active{
-    background-color: var(--color1);
+    background-color: var(--color3);
     color: var(--color2);
 }
 
