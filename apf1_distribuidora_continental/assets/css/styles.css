@@ -70,6 +70,8 @@ body{
 .header {
     background-color: var(--color1);
     color: var(--color2);
+    position: sticky;
+    top: 0;
 }
 
 .about {
@@ -79,11 +81,16 @@ body{
 
 .about-text{
     color: var(--color4);
+    padding-bottom: 15px;
 }
 
 .product {
     background-color: var(--color2);
     color: var(--color1);
+}
+
+.product-text{
+    padding-bottom: 10px;
 }
 
 .product-title{
@@ -108,6 +115,7 @@ body{
 .footer {
     background-color: var(--color1);
     color: var(--color2);
+    text-align: center;
 }
 
 .nav-bar{
@@ -216,7 +224,7 @@ body{
 }
 
 .button-product:hover{
-    background-color: var(--color1);
+    background-color: var(--color4);
 }
 
 .form-control{
@@ -231,7 +239,7 @@ body{
 }
 
 .form-link{
-    color: var(--color1);
+    color: var(--color3);
     text-decoration: none;
 
 }
@@ -281,9 +289,9 @@ body{
 
 .topbar{
     background-color: var(--color4);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 0.9rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
 }
 
 .topbar a{
