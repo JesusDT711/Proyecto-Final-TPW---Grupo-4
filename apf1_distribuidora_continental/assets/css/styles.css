@@ -318,7 +318,7 @@ body{
 .page-title{
     padding-top: 30px;
     padding-bottom: 30px;
-    background: linear-gradient(90deg,rgba(52, 72, 86, 1) 0%, rgba(32, 54, 70, 0.6) 50%), url("../img/banner-page.jpg");
+    background: linear-gradient(90deg,rgba(52, 72, 86, 1) 0%, rgba(32, 54, 70, 0.6) 50%), url("../img/page-title.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
