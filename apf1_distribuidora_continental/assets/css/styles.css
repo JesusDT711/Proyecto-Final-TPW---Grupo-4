@@ -263,13 +263,17 @@ body{
     resize: none;
 }
 
+.table-title {
+    color: var(--color3);
+}
+
 .table-size{
     width: 100%;
     border-collapse: collapse;
 }
 
 .table-caption{
-    color: var(--color1);
+    color: var(--color4);
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -277,13 +281,13 @@ body{
 }
 
 .table th, .table td{
-    border: 1px solid var(--color3);
+    border: 1px solid var(--color1);
     padding: 10px 10px;
     text-align: center;
 }
 
 .table thead{
-    background-color: var(--color4);
+    background-color: var(--color3);
     color: var(--color2);
 }
 
@@ -314,7 +318,7 @@ body{
 .page-title{
     padding-top: 30px;
     padding-bottom: 30px;
-    background: linear-gradient(90deg,rgba(52, 72, 86, 1) 0%, rgba(32, 54, 70, 0.6) 50%), url("../img/page_title.jpg");
+    background: linear-gradient(90deg,rgba(52, 72, 86, 1) 0%, rgba(32, 54, 70, 0.6) 50%), url("../img/banner-page.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
