@@ -72,6 +72,7 @@ body{
     color: var(--color2);
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .about {
@@ -335,4 +336,47 @@ body{
     font-weight: 700;
     letter-spacing: 3px;
     color: var(--color2);
+}
+
+.video-caja-padre{
+    position: relative;
+}
+
+.video-caja-hijo{
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 300px);
+    width: 600px;
+    height: auto;
+    background-color: rgba(234, 27, 37, 0.4);
+    color: var(--color2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+/* Botón scroll-up */
+.scroll-up{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background-color: var(--color1);
+    color: var(--color2);
+    border: 3px solid var(--color3);
+    box-shadow: 0 15px 20px 0 rgba(32, 54, 70, 0.4);
+    transition: all 0.4s;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.scroll-up:hover{
+    background-color: var(--color3);
+    color: var(--color2);
+    transform: scale(1.1) translateY(-5px);
 }

@@ -72,11 +72,19 @@
     </header>
 
     <main>
+        <!-- Video Demostrativo -->
         <section>
-            <video class="video-fluid" autoplay muted loop>
-                <source src="assets/video/motor_inspeccion.mp4" type="video/mp4">
-            </video>
+            <div class="video-caja-padre">
+                <video class="video-fluid" autoplay muted loop>
+                    <source src="assets/video/motor_inspeccion.mp4" type="video/mp4">
+                </video>
+                <div class="video-caja-hijo scale-in-center">
+                    Descuento del 50% en su primera inspección <br>
+                    Visítanos en nuestra sede principal
+                </div>
+            </div>
         </section>
+
         <!-- About -->
         <section class="about padding-xl">
             <div class="container">
@@ -298,5 +306,11 @@
             <span>&copy; 2025 Continental - Todos los derechos reservados</span>
         </div>
     </footer>
+
+    <!-- Botón scroll-up -->
+    <a href="#" class="scroll-up">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
 </body>
 </html>
