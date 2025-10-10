@@ -229,6 +229,10 @@ body{
     background-color: var(--color4);
 }
 
+.form-title{
+    color: var(--color3);
+}
+
 .form-control{
     display: block;
     width: 100%;
