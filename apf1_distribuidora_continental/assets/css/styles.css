@@ -7,7 +7,8 @@
     --color4: #6a6b71; /* Color gris claro*/
 
     /* Variables para tipo de fuente */
-    --fuente1: Verdana, Geneva, Tahoma, sans-serif;
+    --fuente1: "Barlow", sans-serif;
+    --fuente2: "Barlow Condensed", sans-serif;
 }
 
 
@@ -27,16 +28,18 @@
 
 html{
     /* Valor por defecto del rem */
-    font-size: 14px;
+    font-size: 16px;
     scroll-behavior: smooth;
 }
 h1 {
-    font-size: 36px;
+    font-size: 80px;
 }
 
 h2 {
-    font-size: 28px;
+    font-family: var(--fuente2);
+    font-size: 30px;
     letter-spacing: 3px;
+    color: var(--color3);
 }
 
 h3{
@@ -95,17 +98,9 @@ body{
     padding-bottom: 10px;
 }
 
-.product-title{
-    color: var(--color3);
-}
-
 .personal {
     background-color: var(--color1);
     color: var(--color2);
-}
-
-.personal-title{
-    color: var(--color3);
 }
 
 .img-fluid-j {
@@ -229,10 +224,6 @@ body{
     background-color: var(--color4);
 }
 
-.form-title{
-    color: var(--color3);
-}
-
 .form-control{
     display: block;
     width: 100%;
@@ -267,10 +258,6 @@ body{
 
 .form-noresize{
     resize: none;
-}
-
-.table-title {
-    color: var(--color3);
 }
 
 .table-size{
