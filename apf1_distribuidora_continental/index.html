@@ -72,15 +72,23 @@
     </header>
 
     <main>
+        <!-- Video Demostrativo -->
         <section>
-            <video class="video-fluid" autoplay muted loop>
-                <source src="assets/video/motor_inspeccion.mp4" type="video/mp4">
-            </video>
+            <div class="video-caja-padre">
+                <video class="video-fluid" autoplay muted loop>
+                    <source src="assets/video/motor_inspeccion.mp4" type="video/mp4">
+                </video>
+                <div class="video-caja-hijo">
+                    Descuento del 50% en su primera inspección <br>
+                    Visítanos en nuestra sede principal
+                </div>
+            </div>
         </section>
+
         <!-- About -->
         <section class="about padding-xl">
             <div class="container">
-                <h2>¿Quiénes somos?</h2>
+                <h2 class="about-title">¿Quiénes somos?</h2>
                 <div class="row">
                     <div class="col col-60 padding-sm">
                         <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas error vel veritatis voluptas voluptate, vitae eligendi, quae optio sit rerum explicabo nostrum molestiae? Expedita repellendus consequatur sit eum fugit velit voluptates beatae, optio eaque, quae ut. Excepturi quidem iste porro recusandae at sapiente, illo ad dolorem eum, doloremque eaque illum repellat similique, omnis dolore nulla doloribus voluptates nisi odio.</p>                             
@@ -96,7 +104,7 @@
         <!-- Productos -->
         <section class="product padding-xl">
             <div class="container">
-                <h2 class="product-title">Productos</h2>
+                <h2>Productos</h2>
 
                 <div class="row">
                     <div class="col col-33 padding-sm">
@@ -253,7 +261,7 @@
         <!-- Formulario -->
         <section class="padding-xl">
             <div class="container">
-                <h2>Formulario de Contacto</h2>
+                <h2 class="form-title">Formulario de Contacto</h2>
                 <div class="row">
                     <div class="col col-60">
                         <form action="registrar.php" method="post">
@@ -312,12 +320,23 @@
             </div>
         </section>        
 
-    
+
+        <section>
+            <img class="img-fluid" src="assets/img/banner.jpg" alt="">
+        </section>
+    </main>
+
     <!-- footer -->
     <footer class="footer padding-sm">
         <div class="container">
             <span>&copy; 2025 Continental - Todos los derechos reservados</span>
         </div>
     </footer>
+
+    <!-- Botón scroll-up -->
+    <a href="#" class="scroll-up">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
+
 </body>
 </html>
