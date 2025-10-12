@@ -89,19 +89,9 @@ body{
     color: var(--color1);
 }
 
-.product-text{
-    padding-bottom: 10px;
-}
-
 .personal {
     background-color: var(--color1);
     color: var(--color2);
-}
-
-.img-fluid-j {
-    width: 100%;
-    height: 250px;
-    display: block;
 }
 
 .footer {
@@ -154,6 +144,19 @@ body{
     width: 100%;
     height: auto;
     display: block;
+}
+
+.img-fluid-j {
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+
+.img-fluid-g {
+    width: 360px;
+    height: 360px;
+    display: block;
+    padding-left: 100px;
 }
 
 /* Estilos para Flexbox */
