@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Distribuidora Continental</title>
+    <title>Taller Continental</title>
 
     <link rel="stylesheet" href="../css/styles.css">
 
@@ -63,7 +63,7 @@
                 <div class="nav-menu">
                     <a class="nav-menu-link" href="../../index.html">Inicio</a>
                     <a class="nav-menu-link" href="nosotros.html">Nosotros</a>
-                    <a class="nav-menu-link" href="tienda.html">Tienda</a>
+                    <a class="nav-menu-link" href="servicios.html">Servicios</a>
                     <a class="nav-menu-link" href="blog.html">Blog</a>
                     <a class="nav-menu-link nav-link-active" href="contacto.html">Contacto</a>
                 </div>
@@ -79,6 +79,55 @@
                     <a href="../../index.html">Inicio</a> / Contacto
                 </div>
             </div>
+        </section>       
+        
+        <!-- Formulario -->
+        <section class="padding-xl">
+            <div class="container">
+                <h2 class="form-title">Formulario de Contacto</h2>
+                <div class="row">
+                    <div class="col col-60">
+                        <form action="registrar.php" method="post">
+                            <div class="row">
+                                <div class="col col-50">
+                                    <input class="form-control" type="text" id="nombre" name="nombre" required placeholder="Nombre">
+                                </div>
+                                <div class="col col-50">
+                                    <input class="form-control" type="email" id="correo" name="correo" required placeholder="Correo">
+                                </div>
+                                <div class="col col-50">
+                                    <input class="form-control" type="telf" id="telefono" name="telefono" required placeholder="Teléfono">
+                                </div>
+                                <div class="col col-50">
+                                    <input class="form-control" type="text" id="asunto" name="asunto" required placeholder="Asunto">
+                                </div>
+                                <div class="col col-100">
+                                    <textarea class="form-control form-noresize" name="mensaje" id="mensaje" requiered placeholder="Déjanos tu mensaje" rows="5" cols="40"></textarea>
+                                </div>
+                                <div class="col col-100">
+                                    <input class="form-control" type="text" name="captcha" id="captcha" required placeholder="3 x 4 = ?">
+                                </div>
+                                <div class="col col-100">
+                                    <input type="checkbox" name="politica" id="politica" required>
+                                    <label for="politica">He leído y acepto los <a class="form-link" href="#">términos y condiciones</a> de privacidad acerca de mis datos personales.</label>
+                                </div>
+                                <div class="col col-100">
+                                    <button class="form-submit" type="submit">Enviar mensaje <i class="fa-solid fa-paper-plane"></i> </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col col-40">
+                        <img class="img-fluid" src="../img/contact.jpg" alt="">
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <!-- Banner -->
+        <section>
+            <img class="img-fluid" src="../img/banner.jpg" alt="">
         </section>
     </main>
     
