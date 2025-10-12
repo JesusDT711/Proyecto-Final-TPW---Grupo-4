@@ -81,12 +81,7 @@ body{
 
 .about {
     background-color: var(--color2);
-    color: var(--color3);
-}
-
-.about-text{
-    color: var(--color4);
-    padding-bottom: 15px;
+    color: var(--color1);
 }
 
 .product {
