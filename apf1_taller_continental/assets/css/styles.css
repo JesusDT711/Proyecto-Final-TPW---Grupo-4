@@ -552,6 +552,10 @@ de hasta 768px de ancho */
         margin-bottom: 20px;
     }
     
+    .menu-toggle{
+        display: block;
+    }
+    
     /* Barra de menú responsive */
     .nav-menu{
         flex-direction: column;
@@ -560,19 +564,26 @@ de hasta 768px de ancho */
         background-color: var(--color3);
 
         position: absolute;
-        top: 93px;
+        top: 80px;
         right: 0px;
-        width: 25%;
+        width: 33%;
 
         /* Ocultar el menú */
-        display: block;
+        display: none;
     }
 
     .nav-menu-link{
         color: var(--color2);
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid var(--color2);
+    }
+
+    /* Clase que hace visible el nav-menu al hacer clic en el botton burguer
+        Se ejecutará desde JavaScript */
+    .nav-menu.show {
+        display: block;
     }
 }
-
 
 /* Breakpoint para pantallas extra pequeña o celular (x-small) 
 de hasta 576px de ancho */
