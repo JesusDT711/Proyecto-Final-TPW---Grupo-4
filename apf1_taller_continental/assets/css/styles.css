@@ -197,6 +197,12 @@ body{
     color: var(--color2);
 }
 
+.menu-toggle {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
 /*------------------------------------ Selectores del VIDEO DEMO ------------------------------------*/
 
 .video-caja-padre{
