@@ -441,11 +441,9 @@ body{
 
 .redes{
     background-color: var(--color1);
-    padding-bottom: 55px;
 }
 
 .redes h2{
-    padding-top: 15px;
     padding-bottom: 35px;
 }
 
@@ -643,6 +641,16 @@ de hasta 768px de ancho */
         font-size: 1.3em;
     }
 
+    .about .col{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .workers .col{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
     .personal .col{
         max-width: 50%;
         flex-basis: 50%;
@@ -651,6 +659,10 @@ de hasta 768px de ancho */
     .form-contact .col{
         flex-basis: 100%;
         max-width: 100%;
+    }
+
+    .form-contact .img-fluid{
+        padding: 20px 0px;
     }
 
     .product .col{
@@ -663,11 +675,6 @@ de hasta 768px de ancho */
         max-width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-    }
-
-    .redes a{
-        padding: 5px 135px;
-        font-size: 50px;
     }
 
     .redes .col{
@@ -758,18 +765,13 @@ de hasta 576px de ancho */
     }
 
     .product .col{
-        max-width: 100%;
         flex-basis: 100%;
+        max-width: 100%;
     }
 
     .personal .col{
         max-width: 100%;
         flex-basis: 100%;
-    }
-
-    .redes a{
-        padding: 15px 225px;
-        font-size: 75px;
     }
 
     .redes .col{
