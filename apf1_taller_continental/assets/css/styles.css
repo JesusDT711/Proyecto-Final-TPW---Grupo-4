@@ -395,8 +395,27 @@ body{
 /*------------------------------------ Selectores del SECTION VIDEO PROMO ------------------------------------*/
 
 .video-promocion{
+    position: relative;
     background-color: var(--color1);
-    color: var(--color2)
+    color: var(--color2);
+    overflow: hidden;
+}
+
+.video-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 /*------------------------------------ Selectores del SECTION FORMULARIO ------------------------------------*/
@@ -447,17 +466,25 @@ body{
     padding-bottom: 35px;
 }
 
-.redes a{
-    padding: 30px 150px;
-    border: 2px solid var(--color2);
-    font-size: 30px;
-    align-items: center;
-    background-color: var(--color4);
-    color: var(--color2);
-    transition: all 0.4s ease-in-out;
+.redes-box{
+    padding: 5px;
+    justify-content: center;
 }
 
-.redes a:hover{
+.redes-box a{
+    display: flex;
+    text-decoration: none;
+    border: 1px solid var(--color2);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px 0px;
+    color: var(--color2);
+    background-color: var(--color4);
+    transition: all 0.3s ease-in-out;
+}
+
+.redes-box a:hover{
     background-color: var(--color3);
 }
 
@@ -678,8 +705,8 @@ de hasta 768px de ancho */
     }
 
     .redes .col{
-        max-width: 50%;
         flex-basis: 50%;
+        max-width: 50%; 
     }
 
     .banner{
