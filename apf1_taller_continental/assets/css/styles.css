@@ -599,9 +599,9 @@ de hasta 768px de ancho */
     }
     
     .video-caja-hijo{
-        /*Restablece su posicionamiento por defecto*/
         position: static;
         width: 100%;
+        background-color: rgba(234, 27, 37, 0.747);
     }
 
     .padding-xl{
@@ -617,48 +617,26 @@ de hasta 768px de ancho */
         font-size: 1.3em;
     }
 
+    .personal .col{
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
     .form-contact .col{
         flex-basis: 100%;
         max-width: 100%;
     }
 
+    .product .col{
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
     .video-promocion .col{
         flex-basis: 100%;
         max-width: 100%;
-         margin-top: 20px;
+        margin-top: 20px;
         margin-bottom: 20px;
-    }
-    
-    .menu-toggle{
-        display: block;
-    }
-    
-    /* Barra de menú responsive */
-    .nav-menu{
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        background-color: var(--color4);
-
-        position: absolute;
-        top: 80px;
-        right: 0px;
-        width: 33%;
-
-        /* Ocultar el menú */
-        display: none;
-    }
-
-    .nav-menu-link{
-        color: var(--color2);
-        padding: 0.8rem 1rem;
-        border-bottom: 1px solid var(--color2);
-    }
-
-    /* Clase que hace visible el nav-menu al hacer clic en el botton burguer
-        Se ejecutará desde JavaScript */
-    .nav-menu.show {
-        display: block;
     }
 
     .banner{
@@ -678,6 +656,39 @@ de hasta 768px de ancho */
     .banner-img-fluid {
         width: 70%;
         margin: auto;
+    }
+
+    .banner .col{
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+    
+    .menu-toggle{
+        display: block;
+    }
+    
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--color4);
+
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        width: 33%;
+
+        display: none;
+    }
+
+    .nav-menu-link{
+        color: var(--color2);
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid var(--color2);
+    }
+
+    .nav-menu.show {
+        display: block;
     }
 }
 
@@ -710,6 +721,16 @@ de hasta 576px de ancho */
         font-size: 1.2em;
     }
 
+    .product .col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .personal .col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
     .topbar-main{
         flex-direction: column;
         align-items: center;
@@ -730,6 +751,11 @@ de hasta 576px de ancho */
     }
 
     .banner-img-fluid {
-        width: 90%;
+        width: 50%;
+    }
+
+    .banner .col{
+        max-width: 100%;
+        flex-basis: 100%;
     }
 }
