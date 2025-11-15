@@ -399,7 +399,7 @@ body{
     color: var(--color2)
 }
 
-/*------------------------------------ Selectores del FORMULARIO ------------------------------------*/
+/*------------------------------------ Selectores del SECTION FORMULARIO ------------------------------------*/
 
 .form-control{
     display: block;
@@ -435,6 +435,32 @@ body{
 
 .form-noresize{
     resize: none;
+}
+
+/*------------------------------------ Selectores del SECTION NUESTRAS REDES ------------------------------------*/
+
+.redes{
+    background-color: var(--color1);
+    padding-bottom: 55px;
+}
+
+.redes h2{
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.redes a{
+    padding: 30px 150px;
+    border: 2px solid var(--color2);
+    font-size: 30px;
+    align-items: center;
+    background-color: var(--color4);
+    color: var(--color2);
+    transition: all 0.4s ease-in-out;
+}
+
+.redes a:hover{
+    background-color: var(--color3);
 }
 
 /*------------------------------------ Selectores del BANNER ------------------------------------*/
@@ -639,6 +665,16 @@ de hasta 768px de ancho */
         margin-bottom: 20px;
     }
 
+    .redes a{
+        padding: 5px 135px;
+        font-size: 50px;
+    }
+
+    .redes .col{
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+
     .banner{
         padding-top: 30px;
         padding-bottom: 30px;
@@ -727,6 +763,16 @@ de hasta 576px de ancho */
     }
 
     .personal .col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .redes a{
+        padding: 15px 225px;
+        font-size: 75px;
+    }
+
+    .redes .col{
         max-width: 100%;
         flex-basis: 100%;
     }
