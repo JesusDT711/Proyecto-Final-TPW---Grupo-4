@@ -18,6 +18,25 @@
 
     <!-- Añadido del favicon -->
     <link rel="shorcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Enlazar el HTML con el componente carrusel de BXSLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(function () {
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                slideWidth: 0,
+                auto: true,
+                autoControls: false,
+                stopAutoOnClick: true,
+                pager: false
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -81,6 +100,12 @@
     </header>
 
     <main>
+        <!-- Slider -->
+        <div class="bxslider">
+            <div><img src="assets/img/d_general.jpg" title="Productos de Peak" /></div>
+            <div><img src="assets/img/inspeccion_inferior.jpg" title="Revisiones cuidadosas" /></div>
+            <div><img src="assets/img/atencion_amable.jpg" title="Calidad de atención y servicio" /></div>
+        </div>
         <!-- Video Demostrativo -->
         <section>
             <div class="video-caja-padre">
